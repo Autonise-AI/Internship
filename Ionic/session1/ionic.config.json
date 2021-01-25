@@ -1,0 +1,7 @@
+{
+  "name": "session1",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

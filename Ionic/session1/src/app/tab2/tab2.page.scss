@@ -1,0 +1,11 @@
+$b-color: orange;
+
+@mixin animal-card($width){
+    border-style: solid;
+    border-color: $b-color;
+    border-width: $width;
+}
+
+.cat-card{
+    @include animal-card(25px);
+}

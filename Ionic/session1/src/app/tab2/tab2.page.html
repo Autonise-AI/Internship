@@ -1,0 +1,19 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Cats
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-grid>
+    <ion-row>
+      <ion-col size="6" *ngFor="let catName of catList">
+        <div class="cat-card">
+          <img src="../../assets/images/{{catName}}" alt="">
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

@@ -1,0 +1,17 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Dogs
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-grid>
+    <ion-row>
+      <ion-col size="6" *ngFor="let dogName of dogList">
+        <img src="../../assets/images/{{dogName}}" alt="">
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
